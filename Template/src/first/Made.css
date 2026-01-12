@@ -1,0 +1,62 @@
+.made {
+    min-height: 800px;
+    padding-bottom: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    section {
+        width: 1450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            transform: translateY(30px);
+
+            h3 {
+                font-size: 45px;
+                color: white;
+            }
+
+            p {
+                color: silver;
+            }
+        }
+
+        .allBlock {
+            display: grid;
+            gap: 25px;
+            grid-template-columns: repeat(2, 400px);
+            grid-template-rows: repeat(2, 1fr);
+
+            .randomInfos {
+                display: flex;
+                flex-direction: column;
+                gap: 35px;
+                color: white;
+                background: #0000005e;
+                padding: 35px 25px;
+
+                p {
+                    font-size: 25px;
+                }
+
+                span {
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: silver;
+                }
+            }
+
+            .randomInfos:nth-of-type(1),
+            .randomInfos:nth-of-type(3) {
+                transform: translateY(30px);
+            }
+        }
+    }
+}

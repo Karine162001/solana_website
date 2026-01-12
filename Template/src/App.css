@@ -1,0 +1,41 @@
+.App {
+  background: black;
+}
+
+section {
+  width: 1450px;
+}
+
+header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 987 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #0000009a;
+  padding: 20px 0px;
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      display: flex;
+      gap: 30px;
+      list-style-type: none;
+      font-size: 18px;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: gray;
+      }
+    }
+  }
+}

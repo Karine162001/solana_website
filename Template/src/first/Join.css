@@ -1,0 +1,61 @@
+.forAll > article {
+    background: url("../objectPic/itstime/timeback.png");
+    background-size: 100% 100%;
+}
+
+.box {
+    padding: 75px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+
+    section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        h2 {
+            width: 400px;
+            font-size: 45px;
+            color: white;
+            font-family: sans-serif;
+        }
+    }
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.boxik {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    .number {
+        font-size: 100px;
+        color: transparent;
+        background-clip: text !important;
+        animation: forNumber 35s linear infinite;
+    }
+
+    .text {
+        color: #a9a9a9;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-family: sans-serif;
+    }
+}
+
+/* Animationnery Kazmel Drsum; */
+@keyframes forNumber {
+    to {
+        background-position-x: -1500px;
+    }
+}

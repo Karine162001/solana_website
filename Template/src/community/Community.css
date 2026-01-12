@@ -1,0 +1,110 @@
+.community {
+    padding: 75px 0px;
+    background: black;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    section {
+        width: 1450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 35px;
+    }
+
+    .leftInfo,
+    .rightInfo {
+        width: 50%;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 25px;
+
+        h3 {
+            font-size: 35px;
+        }
+
+        p {
+            width: 600px;
+            font-size: 19px;
+            line-height: 25px;
+            color: #b9b9b9;
+        }
+
+        .i1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            padding: 25px 0px;
+            border-bottom: 1px solid #b9b9b9;
+
+            button {
+                padding: 9px 35px;
+                border-radius: 25px;
+                cursor: pointer;
+                border: 1px solid #b9b9b9;
+                color: #b9b9b9;
+                background: black;
+                display: flex;
+                gap: 15px;
+                justify-content: center;
+                align-items: center;
+
+                svg {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .i2 {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            p {
+                width: 375px;
+            }
+        }
+
+        .i3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 25px;
+            height: 400px;
+
+            button {
+                padding: 5px 70px;
+                background: black;
+                color: #b9b9b9;
+                border: 1px solid #b9b9b9;
+                border-radius: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .rightInfo {
+        min-height: auto;
+
+        .i2>p {
+            width: 400px;
+        }
+
+        .i3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
